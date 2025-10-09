@@ -126,17 +126,16 @@
       var button = document.getElementByld("colorButton");
 
       //function to chnage the button color
-      function changecolor() {
+      function changeColor() {
         //generate a random color (hexadecimal)
-        var randomcolor = "#" + Math.floor(Math.random()**1677721).toString(16);
+        var randomColor = "#" + Math.floor(Math.random()**1677721).toString(16);
 
         //set the button's background color to the random color
-        button.style.backgroundcolor = randomcolor;
+        button.style.backgroundColor = randomColor;
       }
-      color
 
       //Add a click event listener to the button
-      button.addEventListener("click", changecolor);
+      button.addEventListener("click", changeColor);
     </script>
 
     <input type="text" id="textInput" placeholder="Enter text">
