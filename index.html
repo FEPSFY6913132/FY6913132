@@ -22,7 +22,7 @@
               padding: 8px;
             }
             tr:nth-child(even) {
-              background-colour: #C71585;
+              background-color: #C71585;
             }
       </style>
     
@@ -116,22 +116,23 @@
       </pre>
     </p>
   <body>
-    <button id="colourButton">Click me to change colour</button>
+    <button id="colorButton">Click me to change color</button>
     <script>
       //get a refernece to the button element
-      var button = document.getElementByld("colourButton");
+      var button = document.getElementByld("colorButton");
 
-      //function to chnage the button colour
-      function changeColour() {
-        //generate a random colour (hexadecimal)
-        var randomColour = "#" + Math.floor(Math.random()**1677721).toString(16);
+      //function to chnage the button color
+      function changecolor() {
+        //generate a random color (hexadecimal)
+        var randomcolor = "#" + Math.floor(Math.random()**1677721).toString(16);
 
-        //set the button's background colour to the random colour
-        button.style.backgroundColour = randomColour;
+        //set the button's background color to the random color
+        button.style.backgroundcolor = randomcolor;
       }
+      color
 
       //Add a click event listener to the button
-      button.addEventListener("click", changeColour);
+      button.addEventListener("click", changecolor);
     </script>
   </body>
 </html>
